@@ -1,0 +1,4 @@
+2025-06-24T21:36:30.655613-05:00 phoenix-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=phoenix
+2025-06-24T21:43:51.475613-05:00 phoenix-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=phoenix uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=phoenix
+2025-06-24T23:05:21.819959-05:00 phoenix-VirtualBox polkit-agent-helper-1[3201]: pam_unix(polkit-1:auth): authentication failure; logname=phoenix uid=1000 euid=0 tty= ruser=phoenix rhost=  user=phoenix
+2025-06-24T23:20:22.705251-05:00 phoenix-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=phoenix uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=phoenix
