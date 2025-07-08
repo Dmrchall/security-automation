@@ -32,6 +32,8 @@ Scans ports on a target host using either the built-in Python socket module or N
 ### How To Run
 python3 port_scanner.py --target [host IP] --ports 1-1024
 
+[Port Scan Script Output](/media/PortScan_Script.png)
+
 ## log_parser.py
 
 Parses system logs (e.g., var/log/auth.log) to detect potentially suspicious activity like brute-force login attempts or unauthorized access.
@@ -46,6 +48,8 @@ Parses system logs (e.g., var/log/auth.log) to detect potentially suspicious act
 
 python3 log_parser.py --log /var/log/auth.log 
 
+[Log Parser Script Output](/media/Log_Parser.png)
+
 ## nmap_automation.py
 
 Automates Nmap scans and stores structured output for future analysis. Useful for running scheduled scans or organizing recon results.
@@ -59,7 +63,9 @@ Automates Nmap scans and stores structured output for future analysis. Useful fo
 ### How To Run
 
 
-python3 nmap_automation.py --target [target IP] --scan-type full
+python3 nmap_automation.py --target [target IP]
+
+[Nmap Scan Script Output](/media/Nmap_Script.png)
 
 ## weak_password_checker.py
 
@@ -88,3 +94,5 @@ A password is marked weak if it:
 ### How to Run
 
 python3 weak_password_checker.py
+
+[Weak Password Script Output](/media/WeakPassword_Script.png)
