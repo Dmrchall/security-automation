@@ -58,19 +58,21 @@ Automates Nmap scans and stores structured output for future analysis. Useful fo
 
 ### How To Run
 
+
 python3 nmap_automation.py --target [target IP] --scan-type full
+
 ## weak_password_checker.py
 
 This script performs a password strength audit by comparing hashed passwords (from a shadow-like file) against a list of common weak passwords.
 
 ### Files Used
 
-- `shadow.txt`: Contains `username:hashed_password` pairs
-- `common_passwords.txt`: A list of plaintext passwords (wordlist)
+- shadow.txt: Contains username:hashed_password pairs
+- common_passwords.txt: A list of plaintext passwords (wordlist)
 
 ### How It Works
 
-1. Reads user hashes from `shadow.txt`
+1. Reads user hashes from shadow.txt
 2. Hashes guesses using the same salt as the original
 3. Compares each guess to the stored hash
 4. Flags any matched password that is considered weak
@@ -85,5 +87,4 @@ A password is marked weak if it:
 
 ### How to Run
 
-```bash
 python3 weak_password_checker.py
